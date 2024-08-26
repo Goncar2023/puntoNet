@@ -1,0 +1,29 @@
+/* ESTACIONAMIENTO */
+TARIFAS DE ESTACIONAMIENTO
+
+Un estacionamiento cobra una tarifa fija por la primera hora y una tarifa adicional por cada hora extra. 
+El usuario ingresa el tiempo total de estacionamiento en horas, y el programa calcula el costo total.
+
+Tarifa fija: $3500 por la primera hora.
+Tarifa adicional: $1500 por cada hora adicional.
+Tarifa reducida: $1750
+
+- El usuario debe ingresar el tiempo total de estacionamiento en horas. 
+- El programa debe permitir entradas en decimales para representar fracciones de horas (por ejemplo, 1.5 horas).
+
+A CONSIDERAR...
+- Si el tiempo de estacionamiento es menor de 0.5 horas, se aplica la tarifa reducida.
+- Calcular el costo si el tiempo es mayor o igual a 30 minutos:
+
+Primera hora: Si el tiempo es mayor o igual a 1 hora, se cobra la tarifa fija de $3500.
+Horas adicionales: Si el tiempo excede 1 hora, se cobra $1500 por cada hora adicional o fracción de hora.
+
+SE DEBERÁ MOSTRAR EL VALOR TOTAL AL USUARIO
+SE DEBERÁN REALIZAR LAS VALIDACIONES NECESARIAS PARA QUE NO EXISTAN ERROR POR PARTE DEL USUARIO
+SE DEBERÁ MOSTRAR UN MENÚ INICIAL CON LAS OPCIONES:
+1.- CALCULAR TARIFAS
+2.- MOSTRAR RESUMENES
+    -> SE DEBERÁ MOSTRAR LA CANTIDAD AUTOS ATENDIDOS
+    -> SE DEBERÁ MOSTRAR EL MONTO RECAUDADO
+    -> SE DEBERÁ MOSTRAR CUAL ES LA CANTIDAD DE HORAS MAXIMA QUE UN AUTO ESTUVO ESTACIONADO
+3.- SALIR 
